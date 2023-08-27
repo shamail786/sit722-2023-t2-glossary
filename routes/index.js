@@ -161,6 +161,86 @@ const nameList = [
     References:
       "Meyer, B. (2014) Agile!: The good, the hype and the ugly. Zurich: Springer International Publishing.  ",
   },
+  {
+    id: 21,
+    Term: "MongoDB",
+    Description:
+      "MongoDB is a prominent open-source NoSQL database management system that fits under the document-oriented database category. It is intended to manage unstructured or semi-structured data and is especially well-suited for applications that demand data model flexibility and scalability. ",
+    References:
+      "‘Introduction to mongodb’ (2010) The Definitive Guide to MongoDB, pp. 3–17.   ",
+  },
+  {
+    id: 22,
+    Term: "Containerization ",
+    Description:
+      "Packaging a programme and its dependencies into a standardised unit (container) for ease of deployment and scalability. ",
+    References:
+      "Containerize an application (2023) Docker Documentation. Available at: https://docs.docker.com/get-started/02_our_app/ (Accessed: 27 August 2023).   ",
+  },
+  {
+    id: 23,
+    Term: "Azure Storage ",
+    Description:
+      "Azure Storage is a Microsoft Azure cloud-based storage solution. It provides a scalable and secure platform for storing all forms of data, including organised and unstructured data, and allows you to access and manage your data from anywhere in the globe.  ",
+    References:
+      "Nemnom, C. (2021) Azure Storage Essential Training. Erscheinungsort nicht ermittelbar: LinkedIn.   ",
+  },
+  {
+    id: 24,
+    Term: "API Gateway ",
+    Description:
+      "A server that serves as the entry point for all client requests and provides a single interface for accessing numerous microservices. It is capable of duties like as authentication, load balancing, and request routeing. ",
+    References:
+      "Mishra, A. (2022) ‘Integrating with an azure storage account’, Microsoft Azure for Java Developers   ",
+  },
+  {
+    id: 25,
+    Term: "Docker Compose ",
+    Description:
+      "Docker Compose is a tool that allows you to define and operate multi-container Docker applications. It enables you to provide your whole application stack, including numerous services, networks, and volumes, in a single declarative file known as a docker-compose.yml file. ",
+    References:
+      "Jangla, K. (2018) ‘Docker compose’, Accelerating Development Velocity Using Docker.  ",
+  },
+  {
+    id: 26,
+    Term: "Declarative Container Management ",
+    Description:
+      "Declarative container management is the practise of utilising a declarative method to define the intended state of your containerized application and its components rather than stating explicit steps or instructions on how to attain that state. ",
+    References:
+      "Jangla, K. (2018a) ‘Advanced docker use cases’, Accelerating Development Velocity Using Docker.  ",
+  },
+  {
+    id: 27,
+    Term: "Orchestration ",
+    Description:
+      "Multiple containers and services are managed, coordinated, and scaled automatically to guarantee they function together flawlessly. Container orchestration solutions such as Kubernetes and Docker Swarm are widely used. ",
+    References:
+      "Jangla, K. (2018b) ‘Debugging microservices using Docker’, Accelerating Development Velocity Using Docker.  ",
+  },
+  {
+    id: 28,
+    Term: "Port Mapping ",
+    Description:
+      "The process of mapping a port on the host to a port on a running container, giving external access to the container's services. ",
+    References:
+      "Jangla, K. (2018c) ‘Docker Basics’, Accelerating Development Velocity Using Docker.  ",
+  },
+  {
+    id: 29,
+    Term: "Image Registry ",
+    Description:
+      "A central repository for storing and managing container images. Other notable image repositories, in addition to Docker Hub, are Google Container Registry and Amazon Elastic Container Registry. ",
+    References:
+      "Jangla, K. (2018d) ‘Docker images’, Accelerating Development Velocity Using Docker. ",
+  },
+  {
+    id: 30,
+    Term: "Docker Hub ",
+    Description:
+      "A cloud-based registry service provided by Docker that hosts Docker images, making it easy to share and distribute images. ",
+    References:
+      "Cook, J. (2017) ‘Docker Hub’, Docker for Data Science, pp. 103–118.   ",
+  },
 ];
 
 /* GET home page. */
