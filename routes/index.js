@@ -241,6 +241,86 @@ const nameList = [
     References:
       "Cook, J. (2017) ‘Docker Hub’, Docker for Data Science, pp. 103–118.   ",
   },
+  {
+    id: 31,
+    Term: "Kubernetes ",
+    Description:
+      "Kubernetes is a container orchestration platform that automates the deployment, scaling, and administration of containerized applications. It was created by Google and is currently maintained by the Cloud Native Computing Foundation (CNCF), which is a branch of the Linux Foundation.  ",
+    References:
+      "Martin, P. (2022) ‘Kubernetes Api Introduction’, Kubernetes Programming with Go, pp. 1–16.",
+  },
+  {
+    id: 32,
+    Term: "Terraform ",
+    Description:
+      "HashiCorp's Terraform is an open-source infrastructure as code (IaC) tool. It allows you to specify and provide infrastructure resources like virtual machines, networks, and storage in a declarative and version-controlled way. ",
+    References:
+      "Salecha, R. (2022) ‘Introduction to terraform’, Practical GitOps, pp. 67–122.  ",
+  },
+  {
+    id: 33,
+    Term: "Kubectl ",
+    Description:
+      "The kubectl command-line tool is used to interface with Kubernetes clusters. It serves as the primary command-line interface for controlling Kubernetes resources and carrying out different activities within a Kubernetes cluster.  ",
+    References:
+      "Lukša, M. (2018) ‘Kubernetes Erweitern’, Kubernetes in Action, pp. 553–578. ",
+  },
+  {
+    id: 34,
+    Term: "Azure Active Directory ",
+    Description:
+      "Microsoft's cloud-based identity and access management service for authenticating and authorizing users and applications. ",
+    References:
+      "Mishra, A. (2022) ‘Provisioning resources with Azure Devops and Azure Cli’, Microsoft Azure for Java Developers, pp. 281–303.",
+  },
+  {
+    id: 35,
+    Term: "Azure CLI ",
+    Description:
+      "Microsoft Azure CLI is a suite of command-line tools for controlling Azure resources and services. It provides a sophisticated and scriptable interface to Azure, allowing customers to automate processes, deploy resources, and manage their Azure infrastructure directly from a terminal or command line.  ",
+    References:
+      "López, D.C. (2019) Azure: Powershell Esencial. Erscheinungsort nicht ermittelbar: LinkedIn.    ",
+  },
+  {
+    id: 36,
+    Term: "Azure Kubernetes ",
+    Description:
+      "Microsoft Azure Kubernetes Service (AKS) is a managed container orchestration platform. It makes Kubernetes deployment, maintenance, and scaling of containerized applications easier.  ",
+    References:
+      "Buchanan, S., Rangama, J. and Bellavance, N. (2019) ‘Deploying Azure Kubernetes Service’, Introducing Azure Kubernetes Service, pp. 63–77.  ",
+  },
+  {
+    id: 37,
+    Term: "Azure Monitor ",
+    Description:
+      " Azure Monitor provides monitoring and diagnostics capabilities for AKS, helping you track the performance and health of your cluster and applications. ",
+    References:
+      "Bleakley, K. (2017) Azure. Port Adelaide South Australia: Ginninderra Press.",
+  },
+  {
+    id: 38,
+    Term: "HCL (HashiCorp Configuration Language)",
+    Description:
+      "Terraform setups are written in this language. It is a declarative, human-readable language used to define infrastructure resources and their interactions.  ",
+    References:
+      "Riti, P. and Flynn, D. (2021) ‘Terraform hcl’, Beginning HCL Programming, pp. 79–105. ",
+  },
+  {
+    id: 39,
+    Term: "Terraform Modules Registry ",
+    Description:
+      "An online repository where you can find and share pre-built Terraform modules, making it easier to reuse infrastructure configurations. ",
+    References:
+      "Modi, R. (2021) ‘Terraform modules’, Deep-Dive Terraform on Azure, pp. 115–137.   ",
+  },
+  {
+    id: 40,
+    Term: "Remote Backends",
+    Description:
+      "Storage solutions, such as AWS S3 or Azure Blob Storage, where Terraform can store the state file remotely, allowing for collaboration and safer state management. ",
+    References:
+      "Salecha, R. (2022a) ‘Introduction to terraform’, Practical GitOps, pp. 67–122.    ",
+  },
 ];
 
 /* GET home page. */
