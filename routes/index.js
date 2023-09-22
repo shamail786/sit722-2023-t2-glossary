@@ -321,6 +321,85 @@ const nameList = [
     References:
       "Salecha, R. (2022a) ‘Introduction to terraform’, Practical GitOps, pp. 67–122.    ",
   },
+  {
+    id: 41,
+    Term: "Monitoring",
+    Description:
+      "Monitoring is typically shown in the right-side of the DevOps cycle following the deployment of the application to the production system.  Although monitoring is an essential aspect of the DevOps cycle, it is not limited to that stage of the development process.  ",
+    References:
+      "‘DevOps: An overview’ (2017) The DevOps Adoption Playbook, pp. 1–38.",
+  },
+  {
+    id: 42,
+    Term: "Logging",
+    Description:
+      "The act of preserving a record of the events and states of a running programme through time is a widespread and long-standing practise employed by computer system developers and operators. This procedure, known as logging, allows messages/data about the transitory state and status of an application, service, hardware system, or environment to be given to the user  ",
+    References:
+      "Hüttermann, M. (2012) ‘Introducing devops’, DevOps for Developers, pp. 15–31.    ",
+  },
+  {
+    id: 43,
+    Term: "FLUENTD",
+    Description:
+      " Fluentd is an open-source data collecting programme that collects, processes, and transports log data and other types of data from a variety of sources in a uniform and efficient manner.",
+    References:
+      "Späth, P. (2023) ‘Logging pipeline with Fluentd’, Pro Jakarta EE 10, pp. 427–436.    ",
+  },
+  {
+    id: 44,
+    Term: "Prometheus",
+    Description:
+      "Prometheus is a free and open-source system monitoring and alerting toolset developed by SoundCloud.  ",
+    References: "Ruffell, I. (2018) ‘Prometheus’, Classics [Preprint].    ",
+  },
+  {
+    id: 45,
+    Term: "Grafana",
+    Description:
+      "Grafana is a free and open-source analytics and visualisation platform that connects to a variety of data sources to let users monitor and visualise their systems, applications, and services. ",
+    References:
+      "Grafana: The Open Observability Platform (no date) Grafana Labs. Available at: https://grafana.com/ (Accessed: 22 September 2023).    ",
+  },
+  {
+    id: 46,
+    Term: "KIBANA",
+    Description:
+      "Kibana is a free and open-source data visualisation and exploration tool for Elasticsearch, a distributed, RESTful search and analytics engine.  ",
+    References:
+      "Kibana: Explore, visualize, Discover Data (no date) Elastic. Available at: https://www.elastic.co/kibana/ (Accessed: 22 September 2023).    ",
+  },
+  {
+    id: 47,
+    Term: "Elasticsearch",
+    Description:
+      "Elasticsearch is a distributed, RESTful search and analytics engine for horizontally scalable, real-time data search and analysis. ",
+    References:
+      "Elasticsearch: The Official Distributed Search &amp; Analytics engine (no date) Elastic. Available at: https://www.elastic.co/elasticsearch/ (Accessed: 22 September 2023).    ",
+  },
+  {
+    id: 48,
+    Term: "Regression test",
+    Description:
+      "These tests were extremely popular in the conventional software development process. Functional and technical tests were re-run to ensure that software - code - updated throughout the development cycle still worked properly after the modification ",
+    References:
+      "Regression testing (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Regression_testing (Accessed: 22 September 2023).    ",
+  },
+  {
+    id: 49,
+    Term: "End-to-end Testing",
+    Description:
+      "End-to-end testing is a software testing process that comprises evaluating the flow of an application from beginning to end to guarantee its behaviour and operation in a real-world setting.  ",
+    References:
+      "Georgian, S. (2021) What is end-to-end testing and when should you use it?, freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/end-to-end-testing-tutorial/ (Accessed: 22 September 2023).  ",
+  },
+  {
+    id: 50,
+    Term: "Integration Testing",
+    Description:
+      "Integration testing is a software testing approach used to analyse the interactions and interfaces between an application's many components, modules, or systems.  ",
+    References:
+      "Carpenter, A. (2021) What is integration testing?, Codecademy Blog. Available at: https://www.codecademy.com/resources/blog/what-is-integration-testing/ (Accessed: 22 September 2023).   ",
+  },
 ];
 
 /* GET home page. */
